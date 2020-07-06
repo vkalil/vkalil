@@ -67,17 +67,19 @@ h1{
   .topnav a:hover {
     background-color: #F0E490;
     color: black;
+    text-decoration: none;
   }
   
 
   .contactbar{
     width: 230px;
-
+    border-radius: 10px;
+   
    
     position: relative;
     top:-100px;
   right:-10%;
-  background-color: #555;
+  background-color: #2d2d2d;
   overflow: auto;
 }
 .contactbar a {
@@ -90,7 +92,8 @@ h1{
   }
 
   .contactbar a:hover {
-    background-color: #000;
+   
+    text-decoration: none;
   }
   .topnav .icon {
     display: none;

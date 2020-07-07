@@ -79,9 +79,9 @@ h3 {
   color: #2d2d2d; 
   position: fixed;
   visibility:hidden;
-  left: 25%;
+  left: 15%;
   top: 25%;
-  width: 50%;
+  width: 70%;
   height: auto;
   padding: 25px;
   border: 4px solid #4C7589; 
@@ -94,7 +94,7 @@ h3 {
   visibility: hidden;
 
   display: block;
-  left: 72%;
+  left: 75%;
   top: 25.5%;
   color: #4C7589; 
   border: none;
@@ -104,6 +104,8 @@ h3 {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius:10px;
+  border: 4px solid #4C7589; 
 }
 
 div.gallery {
@@ -147,16 +149,14 @@ div.gallery {
       left:70%;
     }
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 750px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
     }
-    .exitButton{
-      left:68%;
-    }
+    
     #infobox{
-      width:80%;
+      width:90%;
     }
   }
   

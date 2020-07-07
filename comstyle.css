@@ -155,11 +155,17 @@ div.gallery {
     .exitButton{
       left:68%;
     }
+    #infobox{
+      width:80%;
+    }
   }
   
   @media only screen and (max-width: 500px) {
     .responsive {
       width: 100%;
+    }
+    #infobox{
+      width:80%;
     }
   }
   

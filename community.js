@@ -1,4 +1,4 @@
-function myFunction() {
+function hamburgerFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
@@ -9,47 +9,25 @@ function myFunction() {
 function displayInfo (whichOne){
     var displayText;
     if(whichOne===1){
-        displayText = "In its first year, I joined DSC as Outreach Lead<br>"+
-                      "I helped set up events, study jams, and led initiatives <br>"+
-                      "initiatives to get the word out about this exciting new club";
+        displayText = "<h3>Event Planning Lead</h3>In its first year, I joined the Google Developer Student Club as Event Planning Lead I helped set up events, study jams, and led initiatives initiatives to get the word out about this exciting new club. I hope to lead it this coming year! Fingers crossed!";
     }
     if(whichOne===2){
-        displayText = "I joined SHPE to become a bigger part of a community that didn't <br>"
-                      +"have the numbers to exist in Iowa. I became Head of Outreach, where I <br>"
-                      +"greatly increased our community engagement and active membership. <br> "
-                      +"I also led an initiative with two other members of exec to work with the engineering school<br>"
-                      +"and admissions to increase the number of Latinx engineers at WashU. It was a success!";
+        displayText = "<h3>Head of Outreach</h3>I have an amazing time with the Society of Hispanic Professional Engineers! I worked with a small team on exec to increase the Latinx engineer admits at WashU--we doubled them this year! I've also increased active participation in events";
     }
     if(whichOne===3){
-        displayText = "When applying to college, I applied to this prestigious scholarship program at WashU. I was <br>"
-                      +"one of the 1% of high school students accepted for my work in high school. We regularly work in"
-                      +"the community inside and outside of WashU"
+        displayText = "<h3>Scholar</h3>When applying to college, I applied to the prestigious Annika Rodriguez scholarship program at WashU. I was one of the 1% of high school students accepted for my work in high school. We regularly work in the community inside and outside of WashU"
     }
     if(whichOne===4){
-        displayText = "Sophomore year, my team and I were accepted to work on DFA's national project in <br>collaboration with"
-                      +"the YMCA to empower the youth of the Y to be changemakers in their<br> community. After a rigorous human-centered"
-                      +"design process, we created a platform for the <br>youth of the Y to express themselves on a national scale in "
-                      +"collaboration with local Ys. I'm excited to implement this website next semester!"
+        displayText = "<h3>National Team Member</h3>Was accepted with my team into this rigourous project where we worked with the YMCA on a national level to answer one question: How can we empower youth through the YMCA? We got a lot of positive feedback and we hope to implement our solution fall 2020!"
     }
     if(whichOne===5){
-        displayText = "During my first year of college, I joined DFA and began working with LaunchCode to<br>"
-                      +"try and solve their large droupout rates. My team and I worked with them  in order <br>"
-                      +"to improve their TAing system to facilitate more of a bond and create a reentry process"
+        displayText = "<h3>Team Member</h3>During my first year of college, I joined DFA and began working with LaunchCode to try and solve their large droupout rates. My team and I worked with them  in order to improve their TAing system to facilitate more of a bond and create a reentry process"
     }
     if(whichOne===6){
-        displayText = "After the Parkland school shooting, I was outraged and had enough. Many other high<br>"
-                      +"schoolers in my area had the same feeling, so me and a couple of other students organized<br>"
-                      +"Students Against School Shootings (SASS). We led voter registration workshops, die-ins, <br>"
-                      +"protests, and ultimately Iowa City's March for Our Lives, where we drew hundreds of people <br>"
-                      +"on a snowy day to stand up for what we believe in. I received this award later in the year <br>"
-                      +"with some teammates for our leadership on this city-wide collaboration"
+        displayText = "<h3>Award Recipient</h3>After Parkland, I was outraged and had enough. I led a city-wide effort to bring the youth and community together and fought for gun control legislation through many different events. Received this award for my impact in the community"
     }
     if(whichOne===7){
-        displayText = "I joined the Little Hawk as a reporter in my junior year of high school and had a blast.<br>"
-                      +"I was selected to become Executive Editor the following year, where I coordinated, led,<br>"
-                      +"and taught class. My main goal was to create a more connected environment in class--I worked <br>"
-                      +"to do this by creating a weekly check-in process and eventually led our school to get first <br>"
-                      +"place News Team in the state while notching several national Student News Organization awards <br>"
+        displayText = "<h3>Executive Editor</h3>I joined The Little Hawk as a reporter and eventually became Executive Editor where I taught classes and bettered the newspaper community at my school. Led our team to get first place news team in Iowa"
 
     }
     console.log(displayText);

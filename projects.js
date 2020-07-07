@@ -1,4 +1,4 @@
-function myFunction() {
+function hamburgerFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
@@ -9,29 +9,22 @@ function myFunction() {
 function displayInfo (whichOne){
     var displayText;
     if(whichOne===1){
-        displayText = "Virgil is a private website at the University of Maryland that is used to track computer<br>"
-                     +"usage when massive calculations and programs are run. I was initially tasked to make data usage"
-                     +" more efficient & lower bandwidth usage, but then I broke the website and discovered it had no"
-                     +" error handling, so I then worked with errors on the website, and implemented a Mocha+Chai testing"
-                     +" framework that was implemented with Jenkins to ensure that the website would keep running smoothly"
+        displayText = "<h3>Summer Intern</h3>Figured out how to break website on accident, so I spent the majority of my time fixing it and implementing website testing frameworks. Worked on other projects as well <h5>HTML, JS, CSS, Python, InfluxDB, Mocha+Chai</h5>"
     }
     if(whichOne===2){
-        displayText = "I worked on this project with a partner to create a website that used the Trefle.io API that"
-                      +"allowed the user to intuitively query data, take a fun quiz, and learn what kind of plant"
-                      +"may be best to grow based on the weather in your area using a weather API"
+        displayText = "<h3>Final Project</h3>I worked on this project with a partner to create a website that used the Trefle.io API that allowed the user to intuitively query data, take a fun quiz, and learn what kind of plant may be best to grow based on the weather in your area using a weather API <h5>HTML, JS, CSS, APIs</h5>"
     }
     if(whichOne===3){
-        displayText = "Designing for intuitive and inclusive human-computer interaction is a big part of my computer science philosophy"
-                      +"I have designed several apps and websites in and out of courses using Adobe XD, Figma, and Sketch."
-                      +"Let me know if you're interested in seeing the final products or talking about the process!"
+        displayText = "<h3>Human-Computer Interaction</h3> Message me for my portfolio! I have designed several apps and websites in and out of courses using several softwares listed below. Creating inclusive and intuitive applications & websites is EXTREMELY important to me <h5>Adobe Xd, Figma, Sketch</h5>"
     }
     if(whichOne===4){
-        displayText = "Since sophomore year began, I have been TAing WashU's introductory Java computer science course through studios,"
-                      +" labs, and office hours."
+        displayText = "<h3>Teaching Assistant</h3>Since sophomore year began, I have been TAing WashU's introductory Java computer science course through studios, labs, and office hours<h5>Java</h5>"
     }
     if(whichOne===5){
-        displayText = "In high school, I worked with a lab in my senior year to create a program that could"
-                      +"simulate responses to a device designed to assist vision impaired user using Java"
+        displayText = "<h3>Researcher</h3>In high school, I worked in a lab during my senior year to create a program that could simulate responses to a device designed to assist vision impaired user<h5>Java</h5>"
+    }
+    if(whichOne===6){
+        displayText = "<h3>Interests</h3>I'm highly interested in coding equitable apps, websites, and softwares! I'm comfortable with Java, JS, HTML/CSS, and Swift. I also have experience with C++. On the side, I love rap, sneaker culture, and the NBA"
     }
 
     

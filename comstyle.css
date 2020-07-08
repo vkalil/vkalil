@@ -94,7 +94,7 @@ h3 {
   visibility: hidden;
 
   display: block;
-  left: 75%;
+  left: 80%;
   top: 25.5%;
   color: #4C7589; 
   border: none;
@@ -146,7 +146,7 @@ div.gallery {
   @media only screen and (max-width: 1050px) {
 
     .exitButton{
-      left:70%;
+      left:73%;
     }
   }
   @media only screen and (max-width: 750px) {

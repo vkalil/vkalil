@@ -8,6 +8,9 @@ function hamburgerFunction() {
   }
 function displayInfo (whichOne){
     var displayText;
+    if(whichOne===0){
+        displayText = "<h3>iOS Developer & PM</h3>Developing app to empower youth changemakers using Swift and Firebase through the Mozilla Builders Open Lab--stay tuned for updates!"
+    }
     if(whichOne===1){
         displayText = "<h3>Summer Intern</h3>Broke website on accident, so I spent the majority of my time fixing it and implementing website testing frameworks. Worked on other projects as well <h5>HTML, JS, CSS, Python, InfluxDB, Mocha+Chai</h5>"
     }

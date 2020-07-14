@@ -9,10 +9,10 @@ function hamburgerFunction() {
 function displayInfo (whichOne){
     var displayText;
     if(whichOne===1){
-        displayText = "<h3>Event Planning Lead</h3>In its first year, I set up events, study jams, and led initiatives to get the word out about this exciting new club";
+        displayText = "<h3>Event Planning Lead</h3>In its first year, I set up events, study jams, and led initiatives to get the word out about the new Google Developer Student Club at WashU";
     }
     if(whichOne===2){
-        displayText = "<h3>Head of Outreach</h3>I worked with a small team on exec to increase the Latinx engineer admits at WashU--we doubled them this year! I've also increased active participation in events";
+        displayText = "<h3>Head of Outreach</h3>I worked with the exec team in the Soceity of Hispanic Professional Engineers to increase the Latinx engineer admits at WashU--we doubled them this year! I've also increased active participation in events";
     }
     if(whichOne===3){
         displayText = "<h3>Scholar</h3>One of few students accepted Annika Rodriguez scholarship program at WashU. We regularly work with the community inside and outside of WashU"

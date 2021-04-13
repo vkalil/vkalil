@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: victorkalil.com
+Token: 3b6b041eba2ed61d11b9607bc4a1ff0cb77aa9c27883fe247bf044e4e1f8bdff

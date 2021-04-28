@@ -8,6 +8,9 @@ function hamburgerFunction() {
   }
 function displayInfo (whichOne){
     var displayText;
+    if(whichOne===0){
+        displayText = "<h3>Selected Attendee</h3>One of ~50 student leaders selected for conference hosted by Stanford's Public Interest Tech Lab";
+    }
     if(whichOne===1){
         displayText = "<h3>DSC Lead</h3>This year, I am leading the club in GBMs, coordinating events and projects, helping create more technical workshops, and facilitating more bonds in the club. Last year I was Event Planning Lead.";
     }

@@ -8,8 +8,11 @@ function hamburgerFunction() {
   }
 function displayInfo (whichOne){
     var displayText;
+    if(whichOne===-3){
+        displayText = "<h3>SupremeNow</h3>Serving as PM and iOS developer in iOS app to 'bringing you the Supreme Courts'. App published to the App Store <a href='https://apps.apple.com/us/app/supremenow/id1560924187'>here</a>. You can also learn more at <a href='https://www.supremenow.app'>SupremeNow.app</a>"
+    }
     if(whichOne===-2){
-        displayText = "<h3>VandyHacks: Runner-Up</h3>Created iOS app to bring the Supreme Courts closer to the people. Created iOS app from front to back. Got runner up award out of 70+ teams. Will be published on the app store in the coming months!"
+        displayText = "<h3>VandyHacks: Runner-Up</h3>Created iOS app to help people participate in the Supreme Court as an amicus curiae. Created iOS app front and back end. Received runner up award out of <b>70+ teams</b>!"
     }
     if(whichOne===-1){
         displayText = "<h3>Code for Equity PM</h3>Developing technical and theoretical program for college students to learn how to code for equity. Launching this fall!"

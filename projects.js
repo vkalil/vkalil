@@ -8,6 +8,9 @@ function hamburgerFunction() {
   }
 function displayInfo (whichOne){
     var displayText;
+    if(whichOne===-4){
+        displayText = "<h3>IRS + Civic Digital Fellowship</h3> Selected out of 1700 applicants with ~6% acceptance rate via CDF to work in IRS as a Product Management Intern, where I created a cloud migration technical document for the IRS’s new public-facing identity proofing and authentication application with analysts, developers, and leadership teams. Also participated and led Agile stand-ups, defined user stories, and presented final deliverable to senior leadership. <a href='https://www.codingitforward.com/civic-digital-fellowship'>Civic Digital Fellowship</a>"
+    }
     if(whichOne===-3){
         displayText = "<h3>SupremeNow</h3>Serving as PM and iOS developer in iOS app to 'bringing you the Supreme Courts'. App published to the App Store <a href='https://apps.apple.com/us/app/supremenow/id1560924187'>here</a>. You can also learn more at <a href='https://www.supremenow.app'>SupremeNow.app</a>"
     }
